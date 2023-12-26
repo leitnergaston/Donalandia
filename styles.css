@@ -1,0 +1,43 @@
+/* IMPORTACION DE FUENTE TIPOGRAFICA */
+
+
+/* ROOT */
+
+
+
+/* BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BASE */
+body {
+    background-color: #e9eae4;
+    color: black;
+}
+
+/* CONTENEDOR PREDETERMINADO */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section1_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    font-size: 4rem;
+}
+
+.hr {
+    border: 1px solid purple;
+}
